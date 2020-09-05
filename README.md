@@ -7,9 +7,7 @@ Game Engine based in C++17 y OpenGL 2.1, focus in old laptops. Trying to achieve
 
 * Parallelized forward renderer
 * Programmable vertex & fragment shaders using C++ virtual functions
-* Physically Based Shading 
-* Metallic workflow 
-* Cook-Torrance specular BRDF ( w/lambert diffuse)
+* Physically Based Shading
 * Perspective Correct Interpolation
 * Tangent Space Normal Mapping
 * Ambient Occlusion mapping
@@ -25,7 +23,7 @@ Game Engine based in C++17 y OpenGL 2.1, focus in old laptops. Trying to achieve
 
 ### Engine
 
-* SDL2 Backend
+* SDL2, SMTL, OpenAL and OpenGL
 * Multiplatform executables
 * Scene Switching
 * Free moving camera 
@@ -36,7 +34,7 @@ Game Engine based in C++17 y OpenGL 2.1, focus in old laptops. Trying to achieve
 * Scene content outlined in .txt file
 * Texture tiling to reduce cache misses
 * Multithreading per object and vectorization within lighting shader
-* Fully commented for future referencing
+* Fully commented for future developments
 * Image loading through [stb-image](https://github.com/nothings/stb)
 * Axis aligned Bounding Box generation and reconstruction
 
